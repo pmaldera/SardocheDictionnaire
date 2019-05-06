@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <meta charset="ISO-8859-1">
+        <link rel="stylesheet" type="text/css" href="css.css">
+    </head>
+    <body>
+        <div id="completion" class="white letterContainer"></div>
+        <div class="white WordContainer">
+            <div id="word1" class="word closeWord"></div>
+            <div id="word2" class="word closerWord"></div>
+            <div id="word3" class="word currentWord"></div>
+            <div id="word4" class="word closerWord"></div>
+            <div id="word5" class="word closeWord"></div>
+        </div>
+        <input class="centered" id="inputWord" onkeyup="verifyWord()" type="text"/>
+        <input class="centered" id="inputGoTo" placeholder="search" onkeyup="goTo(this.value)" type="text"/>
+    </body>
+    <script src="game.js"></script>
+</html>
